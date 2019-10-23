@@ -55,7 +55,7 @@ performance with only 10% labeled data.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Fraud Detection on tiancheng (cooperate with tiancheng company)</title>
+      <title>Fraud Detection on digital payment platform (cooperate with tiancheng company)</title>
       <link>https://dengruoyu.github.io/project/tiancheng/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -107,7 +107,7 @@ After clustering latent variables, different users groups are
 formed. We detect fraud users with new patterns from these
 fraud groups.&lt;/p&gt;
 
-&lt;p&gt;The details of our research is shown in our paper &lt;a href=&#34;https://dry999.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The details of our research is shown in our paper &lt;a href=&#34;https://dengruoyu.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is a project cooperating with tiancheng.&lt;/em&gt;&lt;/p&gt;
 </description>
