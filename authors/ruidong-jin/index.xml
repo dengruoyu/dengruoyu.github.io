@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruidong Jin on Ruoyu Deng</title>
+    <link>https://dengruoyu.github.io/authors/ruidong-jin/</link>
+    <description>Recent content in Ruidong Jin on Ruoyu Deng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://dengruoyu.github.io/authors/ruidong-jin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpamTracer: Manual Fake Review Detection for O2O Commercial Platforms by Using Geolocation Features</title>
+      <link>https://dengruoyu.github.io/publication/conference-paper/spamtracer-manual-fake-review-detection-for-o2o-commercial-platforms-by-using-geolocation-features/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/publication/conference-paper/spamtracer-manual-fake-review-detection-for-o2o-commercial-platforms-by-using-geolocation-features/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Abstract：&lt;/em&gt; Nowadays, O2O commercial platforms are playing a crucial
+role in our daily purchases. However, some people are trying to manipulate the online market maliciously by opinion spamming, a kind of web
+fraud behavior like writing fake reviews, due to fame and profits, which
+will harm online purchasing environment and should be detected and
+eliminated. Moreover, manual fake reviewers are more deceptive compared with old web spambots. Although several efficient methods were
+proposed in the fake review detection field, the manual fake reviewers
+are also evolving rapidly. They imitate to be benign users to control
+the velocity of review fraud actions, and deceive the detection system.
+Our investigation presented that geolocation factor is potential and can
+well reflect the distinctions between fake reviewers and benign users. In
+this research, we analyzed the geolocations of shops in reviews, found
+the distinct distribution features of those in fake reviewers and benign
+users, and proposed a SpamTracer model that can identify fake reviewers and benign users by exploiting an improved HMM(Hidden Markov
+Model). Our experiment demonstrated that SpamTracer could achieve
+71% accuracy and 76% recall in the unbalanced dataset, outperforming
+some excellent classical approaches in the aspect of stability. Furthermore, SpamTracer can help to analyze the regularities of review fraud
+actions. Those regularities reflect the time and location in which online
+shops are likely to hire fake reviewers to increase their turnover. We also
+found that a small group of fake reviewers tend to work with plural shops
+located in a small business zone.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

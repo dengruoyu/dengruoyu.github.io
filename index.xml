@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruoyu Deng</title>
+    <link>https://dengruoyu.github.io/</link>
+    <description>Recent content on Ruoyu Deng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://dengruoyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy in Data Sharing (cooperate with 360 company)</title>
+      <link>https://dengruoyu.github.io/project/360/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/project/360/</guid>
+      <description>&lt;p&gt;Deep learning requires a large amount of data in training. In many cases, we cannot get enough data we needed to train a deep learning model. Data are distributed in many owners. Due to privacy considerations, we cannot gather these data directly. A proper method for data sharing without privacy leakage is needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is a project cooperating with 360.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms</title>
+      <link>https://dengruoyu.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Abstract:&lt;/em&gt; Automated fraud behaviors detection on electronic payment
+platforms is a tough problem. Fraud users often exploit the
+vulnerability of payment platforms and the carelessness of
+users to defraud money, steal passwords, do money laundering, etc, which causes enormous losses to digital payment
+platforms and users. There are many challenges for fraud
+detection in practice. Traditional fraud detection methods
+require a large-scale manually labeled dataset, which is hard
+to obtain in reality. Manually labeled data cost tremendous
+human efforts. Besides, the continuous and rapid evolution
+of fraud users makes it hard to find new fraud patterns based
+on existing detection rules. In our work, we propose a realworld data oriented detection paradigm which can detect
+fraud users and upgrade its detection ability automatically.
+Based on the new paradigm, we design a novel fraud detection model, FraudJudger, to analyze users behaviors on
+digital payment platforms and detect fraud users with fewer
+labeled data in training. FraudJudger can learn the latent
+representations of users from unlabeled data with the help of
+Adversarial Autoencoder (AAE). Furthermore, FraudJudger
+can find new fraud patterns from unknown users by cluster
+analysis. Our experiment is based on a real-world electronic
+payment dataset. Comparing with other well-known fraud
+detection methods, FraudJudger can achieve better detection
+performance with only 10% labeled data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fraud Detection on tiancheng (cooperate with tiancheng company)</title>
+      <link>https://dengruoyu.github.io/project/tiancheng/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/project/tiancheng/</guid>
+      <description>
+
+&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
+
+&lt;p&gt;Automated fraud behaviors detection on electronic payment
+platforms is a tough problem. Fraud users often exploit the
+vulnerability of payment platforms and the carelessness of
+users to defraud money, steal passwords, do money laundering, etc, which causes enormous losses to digital payment
+platforms and users. There are many challenges for fraud
+detection in practice. Traditional fraud detection methods
+require a large-scale manually labeled dataset, which is hard
+to obtain in reality. Manually labeled data cost tremendous
+human efforts. Besides, the continuous and rapid evolution
+of fraud users makes it hard to find new fraud patterns based
+on existing detection rules. In our work, we propose a real-world data oriented detection paradigm which can detect
+fraud users and upgrade its detection ability automatically.&lt;/p&gt;
+
+&lt;h2 id=&#34;model-overview&#34;&gt;Model Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt=&#34;Model overview&#34; src=&#34;paper.png&#34; width=&#34;800&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the overview of our detection model.
+Our
+model should contain two main functions: building fraud
+users blacklist and automatically updating the blacklist. The whole
+detection model contains three phases:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase I:&lt;/strong&gt; Merging features from raw data. Platforms collect two main classes of information: operation data and
+transaction data. We first merge the two classes data, and
+the merged features are passed to our fraud detection part.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase II:&lt;/strong&gt; Building fraud users blacklist. Merged features
+in Phase I are of high dimensions, which can not be used
+directly. We can omit ineffective and noisy features and get
+efficient low dimension features with the help of adversarial
+autoencoder. In the meantime, we can detect fraud users by
+a few labeled data. It is a semi-supervised learning process.
+Detected fraud users will be added in the blacklist.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase III:&lt;/strong&gt; Updating fraud users blacklist by cluster analysis. The key idea is to find new fraud users beyond existing
+detection rules. In this phase, we train a new AAE network
+without labels to learn the latent representations of users.
+Then we cluster these latent variables from the network.
+After clustering latent variables, different users groups are
+formed. We detect fraud users with new patterns from these
+fraud groups.&lt;/p&gt;
+
+&lt;p&gt;The details of our research is shown in our paper &lt;a href=&#34;https://dry999.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is a project cooperating with tiancheng.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SpamTracer: Manual Fake Review Detection for O2O Commercial Platforms by Using Geolocation Features</title>
+      <link>https://dengruoyu.github.io/publication/conference-paper/spamtracer-manual-fake-review-detection-for-o2o-commercial-platforms-by-using-geolocation-features/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/publication/conference-paper/spamtracer-manual-fake-review-detection-for-o2o-commercial-platforms-by-using-geolocation-features/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Abstract：&lt;/em&gt; Nowadays, O2O commercial platforms are playing a crucial
+role in our daily purchases. However, some people are trying to manipulate the online market maliciously by opinion spamming, a kind of web
+fraud behavior like writing fake reviews, due to fame and profits, which
+will harm online purchasing environment and should be detected and
+eliminated. Moreover, manual fake reviewers are more deceptive compared with old web spambots. Although several efficient methods were
+proposed in the fake review detection field, the manual fake reviewers
+are also evolving rapidly. They imitate to be benign users to control
+the velocity of review fraud actions, and deceive the detection system.
+Our investigation presented that geolocation factor is potential and can
+well reflect the distinctions between fake reviewers and benign users. In
+this research, we analyzed the geolocations of shops in reviews, found
+the distinct distribution features of those in fake reviewers and benign
+users, and proposed a SpamTracer model that can identify fake reviewers and benign users by exploiting an improved HMM(Hidden Markov
+Model). Our experiment demonstrated that SpamTracer could achieve
+71% accuracy and 76% recall in the unbalanced dataset, outperforming
+some excellent classical approaches in the aspect of stability. Furthermore, SpamTracer can help to analyze the regularities of review fraud
+actions. Those regularities reflect the time and location in which online
+shops are likely to hire fake reviewers to increase their turnover. We also
+found that a small group of fake reviewers tend to work with plural shops
+located in a small business zone.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
