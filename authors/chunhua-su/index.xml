@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Ruoyu Deng</title>
-    <link>https://dengruoyu.github.io/publication/</link>
-    <description>Recent content in Publications on Ruoyu Deng</description>
+    <title>Chunhua Su on Ruoyu Deng</title>
+    <link>https://dengruoyu.github.io/authors/chunhua-su/</link>
+    <description>Recent content in Chunhua Su on Ruoyu Deng</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://dengruoyu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://dengruoyu.github.io/authors/chunhua-su/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,37 +18,6 @@
       
       <guid>https://dengruoyu.github.io/publication/journal-article/gadm-manual-fake-review-detection-for-o2o/</guid>
       <description>&lt;p&gt;&lt;em&gt;Abstract:&lt;/em&gt; O2O (online to offline) commercial platforms, such as Yelp, play a crucial role in our daily purchases. Seeking fame and profit, some people try to manipulate the O2O market by opinion spamming, i.e., en- gaging in fraudulent behavior such as writing fake reviews, which affects the online purchasing environ- ment. Manual fake reviews imitate honest reviews in many ways; hence they are more deceptive and harmful than botnet reviews. Several efficient methods have been proposed to detect fake reviews, but manual fake reviewers are evolving rapidly. They pretend to be benign users, control the velocity of re- view fraud actions, and deceive detection systems. Previous work has focused on the contents of reviews or the information of reviewers. We find that geolocation factors have potential and have been neglected in most studies. Our research indicates that geolocation can well distinguish between fake reviewers and benign users on an O2O platform. We propose a manual fake review detection model, the geolocation- based account detection model (GADM), which combines the AdaBoost model and a long short-term memory (LSTM) neural network to analyze a user’s account and geolocation information, achieving 83.3% accuracy and an 86.2% F1-score on a Yelp dataset. We also propose a high-efficiency algorithm to detect review fraud groups.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms</title>
-      <link>https://dengruoyu.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dengruoyu.github.io/publication/conference-paper/fraudjudger-real-world-data-oriented-fraud/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Abstract:&lt;/em&gt; Automated fraud behaviors detection on electronic payment
-platforms is a tough problem. Fraud users often exploit the
-vulnerability of payment platforms and the carelessness of
-users to defraud money, steal passwords, do money laundering, etc, which causes enormous losses to digital payment
-platforms and users. There are many challenges for fraud
-detection in practice. Traditional fraud detection methods
-require a large-scale manually labeled dataset, which is hard
-to obtain in reality. Manually labeled data cost tremendous
-human efforts. Besides, the continuous and rapid evolution
-of fraud users makes it hard to find new fraud patterns based
-on existing detection rules. In our work, we propose a realworld data oriented detection paradigm which can detect
-fraud users and upgrade its detection ability automatically.
-Based on the new paradigm, we design a novel fraud detection model, FraudJudger, to analyze users behaviors on
-digital payment platforms and detect fraud users with fewer
-labeled data in training. FraudJudger can learn the latent
-representations of users from unlabeled data with the help of
-Adversarial Autoencoder (AAE). Furthermore, FraudJudger
-can find new fraud patterns from unknown users by cluster
-analysis. Our experiment is based on a real-world electronic
-payment dataset. Comparing with other well-known fraud
-detection methods, FraudJudger can achieve better detection
-performance with only 10% labeled data.&lt;/p&gt;
 </description>
     </item>
     

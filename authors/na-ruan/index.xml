@@ -6,10 +6,20 @@
     <description>Recent content in Na Ruan on Ruoyu Deng</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://dengruoyu.github.io/authors/na-ruan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GADM: Manual Fake Review Detection for O2O Commercial Platforms</title>
+      <link>https://dengruoyu.github.io/publication/journal-article/gadm-manual-fake-review-detection-for-o2o/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dengruoyu.github.io/publication/journal-article/gadm-manual-fake-review-detection-for-o2o/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Abstract:&lt;/em&gt; O2O (online to offline) commercial platforms, such as Yelp, play a crucial role in our daily purchases. Seeking fame and profit, some people try to manipulate the O2O market by opinion spamming, i.e., en- gaging in fraudulent behavior such as writing fake reviews, which affects the online purchasing environ- ment. Manual fake reviews imitate honest reviews in many ways; hence they are more deceptive and harmful than botnet reviews. Several efficient methods have been proposed to detect fake reviews, but manual fake reviewers are evolving rapidly. They pretend to be benign users, control the velocity of re- view fraud actions, and deceive detection systems. Previous work has focused on the contents of reviews or the information of reviewers. We find that geolocation factors have potential and have been neglected in most studies. Our research indicates that geolocation can well distinguish between fake reviewers and benign users on an O2O platform. We propose a manual fake review detection model, the geolocation- based account detection model (GADM), which combines the AdaBoost model and a long short-term memory (LSTM) neural network to analyze a user’s account and geolocation information, achieving 83.3% accuracy and an 86.2% F1-score on a Yelp dataset. We also propose a high-efficiency algorithm to detect review fraud groups.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>FraudJudger: Real-World Data Oriented Fraud Detection on Digital Payment Platforms</title>
